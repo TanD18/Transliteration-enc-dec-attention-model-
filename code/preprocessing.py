@@ -78,3 +78,18 @@ class Transliteration_DataLoader(Dataset):
   def get_batch(self,batch_size):
     random_index=random.sample(range(0,len(self.eng_words)),batch_size)
     return [[self.eng_words[i],self.hin_words[i]] for i in random_index]
+  
+
+#Encoded Representation
+def word_rep(words,max_len,lang_alphabets,device='cpu'):
+  word_rep=torch.zeros(len(words),max_len+1,len(lang_alphabets)).to(device)
+  for b in range(len(words)):
+    index=-1
+    for index,char in enumerate(words[b]):
+      char_pos=lang_alphabets.index(char)
+      word_rep[b][index][char_pos]=1
+
+    pad_pos=lang_alphabets.index('<pad>')
+    word_rep[b][index+1][pad_pos]=1
+
+  return word_rep
