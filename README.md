@@ -8,7 +8,7 @@ The project uses parallel hindi-english transliterated pairs to train a model th
 
 ## Motivation
 
-There are numerous languages used by people from different parts of the world. In a country like India, there is a huge variety of vernacular languages across the nation. Sometimes, these difference in language becomes a hindrance in communication and learning of the language. Transliteration helps people pronounce words and names in foreign languages. It makes it easier for people to read and know foreign scripts.
+There are numerous languages used by people from different parts of the world. In a country like India, there is a huge variety of vernacular languages across the nation. Sometimes, these difference in languages becomes a hindrance in communication and learning of the language. Transliteration helps people pronounce words and names in foreign languages. It makes it easier for people to read and know foreign scripts.
 
 ## Task
 
