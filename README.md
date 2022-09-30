@@ -41,6 +41,8 @@ Network Design and Training:
 - Train and Evaluate model
 
 
+[Full Notebook](https://colab.research.google.com/drive/1B9Gn-d7ypihgCwtNf6RexDdDwx9VBisj#scrollTo=_k0iRI-uzUfe)
+
 ## Tech Stack
 
 - Pytorch
