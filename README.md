@@ -3,7 +3,8 @@
 ## Overview
 The project uses parallel hindi-english phonetic pairs to train a model that can transliterate an english text to hindi.  
 
-![demo](https://user-images.githubusercontent.com/35737849/191872651-3d40f133-3820-4b27-a250-6e8b82f1608f.PNG)
+![demo1](https://user-images.githubusercontent.com/35737849/193355749-298206ee-6592-43bc-b1a8-434ccb03de8f.PNG)
+
 <br/>
 
 ## Motivation
