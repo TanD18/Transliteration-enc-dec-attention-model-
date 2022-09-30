@@ -16,7 +16,7 @@ There are numerous languages used by people from different parts of the world. I
 
 We divide the task for this project into:
 - Preprocessing: Extract the raw text from the source, and make necessary transformation and tuning to turn it to a form which works well for our model.
-- Network Architecture and Training: Design our network and set up training methods which helps in building a robust sentiment analysis model. 
+- Network Architecture and Training: Design our network and set up training methods which helps in building a model that can transliterate any english text to hindi with good accuracy. 
 
 ## About Data
 
